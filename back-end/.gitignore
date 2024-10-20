@@ -1,0 +1,10 @@
+.env
+config/serviceAccountKey.json
+node_modules/
+
+db/create_tables.sql
+db/dbConfig.js
+db/testConnection.js
+
+firebase-admin.js
+runSQL.js

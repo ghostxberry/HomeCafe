@@ -1,0 +1,97 @@
+.projectFilter {
+    max-width: 800px; 
+    margin: 60px auto; 
+    padding: 30px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.projectActions {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+  }
+  
+
+
+.projectFilter h3,
+.projectFilter h4 {
+    text-align: center; 
+    color: #84645A; 
+}
+
+.projectFilter select {
+    width: 100%; 
+    max-width: 600px; 
+    padding: 10px;
+    font-size: 0.9rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    transition: border-color 0.2s ease; 
+    margin-bottom: 20px; 
+}
+
+.taskList {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    max-width: 600px; 
+    width: 100%; 
+}
+
+.taskItem {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+    background-color: #F2ECEA; 
+    border-radius: 5px; 
+    margin: 5px 0; 
+}
+
+.taskTitle {
+    font-weight: bold; 
+    color: #84645A; 
+}
+
+.taskDetails {
+    display: flex; 
+    gap: 10px;
+    flex-direction: column; 
+}
+
+.taskDuration,
+.taskCompletionTime {
+    color: #666; 
+}
+
+
+.createProject {
+    display: flex;               
+    justify-content: center;      
+    align-items: center;          
+    gap: 10px;                   
+    margin-top: 20px;            
+    max-width: 600px;           
+    width: 100%;                 
+}
+
+.projectFilter {
+    max-width: 800px;            
+    margin: 40px auto;           
+    padding: 30px;               
+    background-color: #f9f9f9;   
+    border: 1px solid #ccc;     
+    border-radius: 8px;          
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;                
+    flex-direction: column;      
+    align-items: center;          
+}

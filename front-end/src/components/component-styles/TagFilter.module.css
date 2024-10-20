@@ -1,0 +1,27 @@
+/* TagFilter.module.css */
+
+.tagFilter {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  
+  label {
+    font-size: 0.9rem; 
+    margin-right: 0.25rem; 
+  }
+  
+  select {
+    padding: 0.25rem 0.5rem; 
+    font-size: 0.9rem; 
+    border: 1px solid #ccc;
+    border-radius: 3px; 
+    background-color: #fff;
+    transition: border-color 0.2s ease; 
+  }
+  
+  select:focus {
+    border-color: #007bff; 
+    outline: none; 
+  }
+  

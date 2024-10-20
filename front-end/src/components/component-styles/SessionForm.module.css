@@ -1,0 +1,118 @@
+/* sessionForm styles */
+.sessionForm {
+  padding-top: 20px; 
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin: 20px auto 25px auto;
+  max-width: 640px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 100%;
+  padding: 30;
+  gap: 50px; 
+}
+
+.currentTaskTitle {
+  margin: 0;
+  white-space: nowrap;
+  color: #84645A;
+  font-size: 1.2rem;
+}
+
+.timerContainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #A18072;
+  background-color: #f7f7f7;
+  padding: 5px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+  margin: 0; 
+}
+
+.controlsRow {
+  display: flex;
+  gap: 10px; 
+  margin: 0;
+  justify-content: center; 
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.selectedProjectContainer {
+  margin-top: 10px; 
+  font-size: 20px; 
+  color: #84645A; 
+}
+
+
+/* SessionForm.module.css */
+
+.selectorContainer {
+  display: flex;            
+  gap: 10px;               
+  margin-top: 10px;       
+  align-items: center;      
+}
+
+
+
+.tagInput {
+  flex: 1;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.selectedTags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+.tagBox {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+
+.closeButton {
+  margin-left: 5px;
+  cursor: pointer;
+}

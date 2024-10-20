@@ -1,0 +1,24 @@
+/* Color options */
+.button {
+  margin: 20px ; 
+}
+
+.default {
+  background-color: var(--accent-5); 
+}
+
+.mauve {
+  background-color: #684756;
+}
+
+.gray {
+  background-color: #808080; 
+}
+
+.red {
+  background-color: #ff4c4c; 
+}
+
+.blue {
+  background-color: #007bff; 
+}

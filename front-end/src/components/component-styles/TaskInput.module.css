@@ -1,0 +1,40 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+  margin: 5px 0;
+}
+
+.textArea {
+  flex-grow: 1;
+  padding: 5px 8px; 
+  font-size: 14px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.textArea:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 5px 10px; 
+  font-size: 14px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}

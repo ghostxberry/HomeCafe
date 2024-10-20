@@ -1,0 +1,55 @@
+.completedSessionsContainer {
+  width: 600px; 
+  max-height: 400px; 
+  margin: 20px auto;
+  padding: 16px; 
+  background-color: #f9f9f9; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+  overflow-y: auto; 
+  color:#84645A
+}
+
+.sessionList {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.completedSessionItem {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px 0; 
+  border-bottom: 1px solid #eee;
+  align-items: center; 
+}
+
+.completedSessionItem:last-child {
+  border-bottom: none; 
+}
+
+.sessionTitle {
+  color: #84645A; 
+  text-align: left;
+  flex: 1; 
+  font-weight: normal; 
+}
+
+
+.sessionDetails {
+  display: flex; 
+  gap: 10px; 
+  text-align: right;
+  flex: 1; 
+}
+
+.sessionTime {
+  color: #666; 
+}
+
+.sessionDuration {
+  color: #A18072; 
+}

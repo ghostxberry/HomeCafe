@@ -1,0 +1,32 @@
+.timerContainer {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  margin: 0; 
+  padding: 0; 
+}
+
+.timer {
+  font-size: 1.2rem; 
+  font-weight: bold;
+  color: #A18072;
+  background-color: #f7f7f7;
+  padding: 5px 10px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 1px;
+  margin-left: 10px; 
+}
+
+.timer span {
+  display: inline-block;
+  min-width: 30px; 
+  text-align: center;
+}
+
+.timerLabel {
+  font-size: 14px; 
+  color: #666;
+  margin-top: 0; 
+  text-align: center;
+}

@@ -1,0 +1,56 @@
+/* ProjectSelector.module.css */
+
+.projectSelector {
+    margin-top: 20px; 
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.projectList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+    
+}
+
+.projectListItem {
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.projectBox {
+    display: inline-block;
+    background-color: #F0E7E4;
+    padding: 5px 10px; 
+    border-radius: 12px; 
+}
+
+.closeButton {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #84645A; 
+    font-weight: bold;
+}
+
+.selectedProjectContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.buttonRow {
+    display: flex;
+    gap: 10px;
+}

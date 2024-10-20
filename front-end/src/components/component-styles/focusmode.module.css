@@ -1,0 +1,18 @@
+.heading {
+    text-align: center; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; 
+    padding: 30px;
+}
+
+
+  .completedSessions {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    margin: 1rem 0; 
+    color: #84645A;
+    text-align: center; 
+  }
+  

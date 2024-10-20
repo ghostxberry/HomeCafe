@@ -1,0 +1,16 @@
+.workspace {
+    display: flex; 
+    height: calc(100vh - 60px); 
+}
+
+.sidebar {
+    flex-shrink: 0; 
+    width: 250px; 
+}
+
+.content {
+    flex-grow: 1; 
+    padding: 20px; 
+    margin-top: 20px;
+    overflow-y: auto;
+}
